@@ -1,0 +1,11 @@
+{
+  "name": "fp-exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Seedockh/fp-exercises.git",
+  "author": "pierr <pierre.herisse@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
+}
