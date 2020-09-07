@@ -100,6 +100,7 @@ const game = (
                 const otherVal: number = hanoi[otherPos.towerIndex][otherPos.discIndex]
                 hanoi = fDisplace(otherVal, otherPos.towerIndex, nextOtherPos.towerIndex, hanoi)
                 nbIterations++
+                console.log(hanoi[2])
             }
 
             // Safety check
@@ -115,8 +116,6 @@ const game = (
     }
 }
 
-
-
-const hanoi = game(setup, getNextPos, getOtherDisc, displace)(20)
+const hanoi = game(setup, getNextPos, getOtherDisc, displace)(42)
 
 console.log(hanoi)
